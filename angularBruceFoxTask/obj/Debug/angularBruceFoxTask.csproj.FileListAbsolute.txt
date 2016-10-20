@@ -1,0 +1,66 @@
+c:\users\steven tran\documents\visual studio 2015\Projects\angularBruceFox\angularBruceFoxTask\bin\ApplicationInsights.config
+c:\users\steven tran\documents\visual studio 2015\Projects\angularBruceFox\angularBruceFoxTask\bin\roslyn\csc.exe
+c:\users\steven tran\documents\visual studio 2015\Projects\angularBruceFox\angularBruceFoxTask\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\steven tran\documents\visual studio 2015\Projects\angularBruceFox\angularBruceFoxTask\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\steven tran\documents\visual studio 2015\Projects\angularBruceFox\angularBruceFoxTask\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\steven tran\documents\visual studio 2015\Projects\angularBruceFox\angularBruceFoxTask\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\steven tran\documents\visual studio 2015\Projects\angularBruceFox\angularBruceFoxTask\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\steven tran\documents\visual studio 2015\Projects\angularBruceFox\angularBruceFoxTask\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\steven tran\documents\visual studio 2015\Projects\angularBruceFox\angularBruceFoxTask\bin\roslyn\System.Collections.Immutable.dll
+c:\users\steven tran\documents\visual studio 2015\Projects\angularBruceFox\angularBruceFoxTask\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\steven tran\documents\visual studio 2015\Projects\angularBruceFox\angularBruceFoxTask\bin\roslyn\vbc.exe
+c:\users\steven tran\documents\visual studio 2015\Projects\angularBruceFox\angularBruceFoxTask\bin\roslyn\VBCSCompiler.exe
+c:\users\steven tran\documents\visual studio 2015\Projects\angularBruceFox\angularBruceFoxTask\bin\roslyn\VBCSCompiler.exe.config
+c:\users\steven tran\documents\visual studio 2015\Projects\angularBruceFox\angularBruceFoxTask\bin\angularBruceFoxTask.dll.config
+c:\users\steven tran\documents\visual studio 2015\Projects\angularBruceFox\angularBruceFoxTask\bin\angularBruceFoxTask.dll
+c:\users\steven tran\documents\visual studio 2015\Projects\angularBruceFox\angularBruceFoxTask\bin\angularBruceFoxTask.pdb
+c:\users\steven tran\documents\visual studio 2015\Projects\angularBruceFox\angularBruceFoxTask\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\steven tran\documents\visual studio 2015\Projects\angularBruceFox\angularBruceFoxTask\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\steven tran\documents\visual studio 2015\Projects\angularBruceFox\angularBruceFoxTask\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\steven tran\documents\visual studio 2015\Projects\angularBruceFox\angularBruceFoxTask\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\steven tran\documents\visual studio 2015\Projects\angularBruceFox\angularBruceFoxTask\bin\Microsoft.AI.Web.dll
+c:\users\steven tran\documents\visual studio 2015\Projects\angularBruceFox\angularBruceFoxTask\bin\Microsoft.AI.WindowsServer.dll
+c:\users\steven tran\documents\visual studio 2015\Projects\angularBruceFox\angularBruceFoxTask\bin\Microsoft.ApplicationInsights.dll
+c:\users\steven tran\documents\visual studio 2015\Projects\angularBruceFox\angularBruceFoxTask\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\steven tran\documents\visual studio 2015\Projects\angularBruceFox\angularBruceFoxTask\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\steven tran\documents\visual studio 2015\Projects\angularBruceFox\angularBruceFoxTask\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\steven tran\documents\visual studio 2015\Projects\angularBruceFox\angularBruceFoxTask\bin\Microsoft.AI.Web.xml
+c:\users\steven tran\documents\visual studio 2015\Projects\angularBruceFox\angularBruceFoxTask\bin\Microsoft.AI.WindowsServer.xml
+c:\users\steven tran\documents\visual studio 2015\Projects\angularBruceFox\angularBruceFoxTask\bin\Microsoft.ApplicationInsights.xml
+c:\users\steven tran\documents\visual studio 2015\Projects\angularBruceFox\angularBruceFoxTask\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\steven tran\documents\visual studio 2015\Projects\angularBruceFox\angularBruceFoxTask\obj\Debug\angularBruceFoxTask.dll
+c:\users\steven tran\documents\visual studio 2015\Projects\angularBruceFox\angularBruceFoxTask\obj\Debug\angularBruceFoxTask.pdb
+c:\users\steven tran\documents\visual studio 2015\Projects\angularBruceFox\angularBruceFoxTask\obj\Debug\angularBruceFoxTask.csprojResolveAssemblyReference.cache
+C:\Users\Steve\Documents\Visual Studio 2015\Projects\angularBruceFox\angularBruceFoxTask\bin\ApplicationInsights.config
+C:\Users\Steve\Documents\Visual Studio 2015\Projects\angularBruceFox\angularBruceFoxTask\bin\roslyn\csc.exe
+C:\Users\Steve\Documents\Visual Studio 2015\Projects\angularBruceFox\angularBruceFoxTask\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Steve\Documents\Visual Studio 2015\Projects\angularBruceFox\angularBruceFoxTask\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Steve\Documents\Visual Studio 2015\Projects\angularBruceFox\angularBruceFoxTask\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Steve\Documents\Visual Studio 2015\Projects\angularBruceFox\angularBruceFoxTask\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Steve\Documents\Visual Studio 2015\Projects\angularBruceFox\angularBruceFoxTask\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Steve\Documents\Visual Studio 2015\Projects\angularBruceFox\angularBruceFoxTask\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Steve\Documents\Visual Studio 2015\Projects\angularBruceFox\angularBruceFoxTask\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Steve\Documents\Visual Studio 2015\Projects\angularBruceFox\angularBruceFoxTask\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Steve\Documents\Visual Studio 2015\Projects\angularBruceFox\angularBruceFoxTask\bin\roslyn\vbc.exe
+C:\Users\Steve\Documents\Visual Studio 2015\Projects\angularBruceFox\angularBruceFoxTask\bin\roslyn\VBCSCompiler.exe
+C:\Users\Steve\Documents\Visual Studio 2015\Projects\angularBruceFox\angularBruceFoxTask\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Steve\Documents\Visual Studio 2015\Projects\angularBruceFox\angularBruceFoxTask\bin\angularBruceFoxTask.dll.config
+C:\Users\Steve\Documents\Visual Studio 2015\Projects\angularBruceFox\angularBruceFoxTask\bin\angularBruceFoxTask.dll
+C:\Users\Steve\Documents\Visual Studio 2015\Projects\angularBruceFox\angularBruceFoxTask\bin\angularBruceFoxTask.pdb
+C:\Users\Steve\Documents\Visual Studio 2015\Projects\angularBruceFox\angularBruceFoxTask\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Steve\Documents\Visual Studio 2015\Projects\angularBruceFox\angularBruceFoxTask\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Steve\Documents\Visual Studio 2015\Projects\angularBruceFox\angularBruceFoxTask\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Steve\Documents\Visual Studio 2015\Projects\angularBruceFox\angularBruceFoxTask\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Steve\Documents\Visual Studio 2015\Projects\angularBruceFox\angularBruceFoxTask\bin\Microsoft.AI.Web.dll
+C:\Users\Steve\Documents\Visual Studio 2015\Projects\angularBruceFox\angularBruceFoxTask\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Steve\Documents\Visual Studio 2015\Projects\angularBruceFox\angularBruceFoxTask\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Steve\Documents\Visual Studio 2015\Projects\angularBruceFox\angularBruceFoxTask\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Steve\Documents\Visual Studio 2015\Projects\angularBruceFox\angularBruceFoxTask\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Steve\Documents\Visual Studio 2015\Projects\angularBruceFox\angularBruceFoxTask\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Steve\Documents\Visual Studio 2015\Projects\angularBruceFox\angularBruceFoxTask\bin\Microsoft.AI.Web.xml
+C:\Users\Steve\Documents\Visual Studio 2015\Projects\angularBruceFox\angularBruceFoxTask\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Steve\Documents\Visual Studio 2015\Projects\angularBruceFox\angularBruceFoxTask\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Steve\Documents\Visual Studio 2015\Projects\angularBruceFox\angularBruceFoxTask\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Steve\Documents\Visual Studio 2015\Projects\angularBruceFox\angularBruceFoxTask\obj\Debug\angularBruceFoxTask.csprojResolveAssemblyReference.cache
+C:\Users\Steve\Documents\Visual Studio 2015\Projects\angularBruceFox\angularBruceFoxTask\obj\Debug\angularBruceFoxTask.dll
+C:\Users\Steve\Documents\Visual Studio 2015\Projects\angularBruceFox\angularBruceFoxTask\obj\Debug\angularBruceFoxTask.pdb

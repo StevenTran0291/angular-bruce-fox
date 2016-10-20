@@ -1,0 +1,2 @@
+C:\Users\Steven Tran\documents\visual studio 2015\Projects\angularBruceFox\angularJSTask\bin\Debug\angularJSTask.exe.config
+C:\Users\Steve\Documents\Visual Studio 2015\Projects\angularBruceFox\angularJSTask\bin\Debug\angularJSTask.exe.config

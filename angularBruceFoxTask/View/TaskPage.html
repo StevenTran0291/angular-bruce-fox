@@ -1,0 +1,178 @@
+﻿<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <span class="navbar-brand">Task Details</span>
+        </div>
+        <ul class="nav navbar-nav navbar-right">
+            <li><span class="navbar-brand">Items Per Page:</span></li>
+            <li>
+                <span class="navbar-form">
+                    <select class="navbar-form form-control" ng-model="query4" ng-init="query4='10'">
+                        <option value="10" ng-selected="true">10</option>
+                        <option value="5">5</option>
+                        <option value="3">3</option>
+                        <option value="1">1</option>
+                    </select>
+                </span>
+            </li>
+            <li><span class="navbar-brand">Order By:</span></li>
+            <li>
+                <span class="navbar-form checkbox" style="padding-top: 6%;">
+                    <label class="navbar-link" for="descending">
+                        <input type="checkbox" id="descending" ng-model="query3">
+                        Descending
+                    </label>
+                </span>
+            </li>
+            <li>
+                <select class="navbar-form form-control" ng-model="query2" ng-init="query2='Quote_Type'">
+                    <option value="Quote_Type">Quote Type</option>
+                    <option value="Quote_Number">Quote Number</option>
+                    <option value="Contact">Contact</option>
+                    <option value="Task_Record">Task Description</option>
+                    <option value="Due_Date">Due Date</option>
+                    <option value="Task_Type">Task Type</option>
+                </select>
+            </li>
+            <li>
+                <form class="navbar-form" role="search">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search" ng-model="query">
+                    </div>
+                </form>
+            </li>
+            <li><a href="" id="myBtn" data-toggle="modal" data-target="#myModal"><span class="glyphicon glyphicon-plus"></span> Add Task</a></li>
+        </ul>
+    </div>
+</nav>
+
+<div style="height: 50vh">
+    <table id="lol" class="table table-bordered table-hover table-striped">
+        <tr style="background-color: #00a6c1; color: white !important">
+            <th>Quote Type</th>
+            <th>Quote Number</th>
+            <th>Contact</th>
+            <th>Task Description</th>
+            <th>Due Date</th>
+            <th>Task Type</th>
+            <th></th>
+        </tr>
+        <tr dir-paginate="x in tasks | filter:query | orderBy:query2 :query3 | itemsPerPage: query4">
+            <td>{{ x.Quote_Type }}</td>
+            <td>{{ x.Quote_Number }}</td>
+            <td>{{x.Contact}}</td>
+            <td>{{x.Task_Record}}</td>
+            <td>{{x.Due_Date | date:'medium'}}</td>
+            <td>{{x.Task_Type}}</td>
+            <td align="center">
+                <div>
+                    <a class="icon" href="#MyTask" id="myBtn4"><span class="glyphicon glyphicon-eye-open" ng-click="getSingleData(x)"></span></a>
+                    <a class="icon" href="" id="myBtn2" data-toggle="modal" data-target="#myModal2" ng-click="getSingleData(x)"><span class="glyphicon glyphicon-edit"></span></a>
+                    <a class="icon" href="" id="myBtn3" ng-click="delete(x)"><span class="glyphicon glyphicon-trash"></span></a>
+                </div>
+            </td>
+        </tr>
+    </table>
+</div>
+
+<div>
+    <dir-pagination-controls class="pull-right" max-size="query4" direction-links="true" boundary-links="true"></dir-pagination-controls>
+</div>
+<br />
+
+<form role="form" name="userForm">
+    <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4>Add Task</h4>
+                </div>
+                <div class="modal-body" style="padding:40px 50px;">
+
+                    <div class="form-group">
+                        <label>Quote Type:</label>
+                        <input type="text" class="form-control" ng-model="task.Quote_Type" required />
+                    </div>
+                    <div class="form-group">
+                        <label>Quote Number:</label>
+                        <input type="number" class="form-control" ng-model="task.Quote_Number" required />
+                    </div>
+                    <div class="form-group">
+                        <label>Contact:</label>
+                        <input type="text" class="form-control" ng-model="task.Contact" required />
+                    </div>
+                    <div class="form-group">
+                        <label>Due Date:</label>
+                        <input type="datetime-local" class="form-control" ng-model="task.Due_Date" required />
+                    </div>
+                    <div class="form-group">
+                        <label>Task Type:</label>
+                        <input type="text" class="form-control" ng-model="task.Task_Type" required />
+                    </div>
+                    <div class="form-group">
+                        <label>Task Description:</label>
+                        <textarea rows="4" cols="50" class="form-control" ng-model="task.Task_Record" required></textarea>
+                    </div>
+
+
+                </div>
+                <div class="modal-footer">
+                    <div class="btn-toolbar">
+                        <button type="submit" class="btn btn-default pull-right" data-dismiss="modal" ng-click="ClearFields2()">Cancel</button>
+                        <button type="submit" class="btn btn-primary pull-right" data-dismiss="modal" ng-click="add()" ng-disabled="userForm.$invalid">OK</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+
+<form role="form" name="userForm2">
+    <div class="modal fade" id="myModal2" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4>Edit Task</h4>
+                </div>
+                <div class="modal-body" style="padding:40px 50px;">
+
+                    <div class="form-group">
+                        <label>Quote Type:</label>
+                        <input type="text" class="form-control" ng-model="task.Quote_Type" required />
+                    </div>
+                    <div class="form-group">
+                        <label>Quote Number:</label>
+                        <input type="number" class="form-control" ng-model="task.Quote_Number" required />
+                    </div>
+                    <div class="form-group">
+                        <label>Contact:</label>
+                        <input type="text" class="form-control" ng-model="task.Contact" required />
+                    </div>
+                    <div class="form-group">
+                        <label>Due Date:</label>
+                        <input type="datetime-local" class="form-control" ng-model="task.Due_Date" required />
+                    </div>
+                    <div class="form-group">
+                        <label>Task Type:</label>
+                        <input type="text" class="form-control" ng-model="task.Task_Type" required />
+                    </div>
+                    <div class="form-group">
+                        <label>Task Description:</label>
+                        <textarea rows="4" cols="50" class="form-control" ng-model="task.Task_Record" required></textarea>
+                    </div>
+
+
+                </div>
+                <div class="modal-footer">
+                    <div class="btn-toolbar">
+                        <button type="submit" class="btn btn-default pull-right" data-dismiss="modal" ng-click="ClearFields2()">Cancel</button>
+                        <button type="submit" class="btn btn-primary pull-right" data-dismiss="modal" ng-click="update(task)" ng-disabled="userForm2.$invalid">OK</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+

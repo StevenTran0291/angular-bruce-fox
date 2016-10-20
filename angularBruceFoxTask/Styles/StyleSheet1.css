@@ -1,0 +1,43 @@
+﻿.modal-header, h4 {
+    background-color: #00a6c1;
+    color: white !important;
+    font-size: 30px;
+    text-align: center;
+}
+
+.modal-footer {
+            text-align: right;
+
+}
+
+#icon:link {
+            color: black;
+
+}
+
+a.icon:visited {
+    color: black;
+
+}
+
+a.icon:hover {
+    color: #00a6c1;
+
+}
+
+a.icon:active {
+    color: black;
+
+}
+
+a.icon {
+    padding: 5px;
+}
+
+table tbody tr td:last-child {
+    width: 135px;
+}
+
+.glyphicon {
+    font-size: 18px;
+}
